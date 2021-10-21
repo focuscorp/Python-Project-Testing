@@ -1,0 +1,8 @@
+---
+applications:
+- name: Dofan_Security
+  path: target/Dofan_Security-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+  instance: 1
+  memory: 1024M
+  Main-Class: DofanSecurityApplication.java
